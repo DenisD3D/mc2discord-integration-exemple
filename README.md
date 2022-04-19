@@ -1,4 +1,4 @@
-# mc2discord-integration-exempleHi,
+# mc2discord-integration-exemple
 ## Getting Started
 How to integrate your mod with Mc2Discord
 add mc2discord as a dev dependency
