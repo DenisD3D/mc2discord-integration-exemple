@@ -40,7 +40,7 @@ Change the Mc2DiscordCompat send function to the following
 Mc2Discord.INSTANCE.messageManager.sendMessageOfType("mc2discordintegrationexemple" /* TODO: put your mod id here */,
     s,
     "YOUR_PSEUDO: " + s,
-    "YOUR_PSEUDO,
+    "YOUR_PSEUDO",
     "YOUR_AVATAR_URL",
     null,
     false);
