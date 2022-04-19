@@ -1,6 +1,6 @@
 # mc2discord-integration-exemple
 ## Getting Started
-How to integrate your mod with Mc2Discord : \
+How to integrate your mod with Mc2Discord :
  * Add mc2discord as a dev dependency: replace MC2DISCORD_CURSEFORGE_ID by the last version of the mod file id (eg: 3757287 for file https://www.curseforge.com/minecraft/mc-mods/mc2discord/files/3757287)
 ```gradle
 repositories {
