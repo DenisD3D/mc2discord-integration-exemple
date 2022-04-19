@@ -1,4 +1,5 @@
 # mc2discord-integration-exempleHi,
+## Getting Started
 How to integrate your mod with Mc2Discord
 add mc2discord as a dev dependency
 ```gradle
@@ -31,4 +32,16 @@ eg channel confiugration:
     id = 773571975343243265
     subscriptions = ["info", "chat", "command", "mc2discordintegrationexemple"]
     mode = "WEBHOOK"
+```
+
+## Sending with a custom username and profile picture
+Change the Mc2DiscordCompat send function to the following
+```java
+Mc2Discord.INSTANCE.messageManager.sendMessageOfType("mc2discordintegrationexemple" /* TODO: put your mod id here */,
+    s,
+    "YOUR_PSEUDO: " + s,
+    "YOUR_PSEUDO,
+    "YOUR_AVATAR_URL",
+    null,
+    false);
 ```
